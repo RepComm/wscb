@@ -1,11 +1,7 @@
 
-# java-bare-bones
+# wscb
 
-A template project for bare-bones java programs
+WebSocket callback wrapper
 
-## descriptions
-`Main.java` - a demo java source hello world class
-
-`build.sh` - bash script that runs `javac` and `jar` from your JDK installation.
-
-`start.sh` - bash script that runs `java` on the built jar file
+Implementing and using TooTallNate/Java-WebSocket throws multi-threading exceptions when using from GraalVM javascript context.
+This aims to make WS more appropriate for that single threaded access standpoint.

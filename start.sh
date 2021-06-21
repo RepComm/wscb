@@ -1,1 +1,1 @@
-java -jar ./bin/wscb.jar
+java -cp wscb.jar:slf4j-api-1.7.25.jar:Java-WebSocket-1.5.2.jar comm.rep.Test

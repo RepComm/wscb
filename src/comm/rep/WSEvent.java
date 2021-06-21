@@ -42,14 +42,14 @@ public class WSEvent {
   /**Stop code involved in this event, if any
    * Populated for EVENT_TYPE_STOP
    */
-  public int stopCode;
+  public int disconnectCode;
   /**Stop reason involved in this event, if any
    * Populated for EVENT_TYPE_STOP
    */
-  public String stopReason;
+  public String disconnectReason;
   /**Denotes if the client was remote during EVENT_TYPE_STOP event
    * Populated for EVENT_TYPE_STOP
    */
-  public boolean stopClientWasRemote;
+  public boolean disconnectWasRemoteClient;
 
 }
